@@ -5,8 +5,8 @@ POST {{host}}/register
 Content-Type: application/json
 
 {
-  "username" : "jane doe",
-  "email": "jane2@doe.fr",
+  "username" : "Houssam OUATMANI ",
+  "email": "houssamouatmani@gmail.com",
   "password" : "123456789"  
 }
 
@@ -17,6 +17,6 @@ POST {{host}}/login
 Content-Type: application/json
 
 {
-  "email": "jane2@doe.fr",
-  "password" : "1234"  
+  "email": "houssamouatmani@gmail.com",
+  "password" : "123456789"  
 }
