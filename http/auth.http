@@ -1,0 +1,22 @@
+@host=http://localhost:3000/api/v1/auth
+
+
+POST {{host}}/register
+Content-Type: application/json
+
+{
+  "username" : "jane doe",
+  "email": "jane2@doe.fr",
+  "password" : "123456789"  
+}
+
+
+###
+
+POST {{host}}/login
+Content-Type: application/json
+
+{
+  "email": "jane2@doe.fr",
+  "password" : "1234"  
+}

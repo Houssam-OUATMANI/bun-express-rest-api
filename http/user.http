@@ -1,0 +1,42 @@
+@host=http://localhost:3000/users
+
+
+
+GET {{host}}
+
+Accept: "application/json"
+
+
+###
+
+GET {{host}}/3
+
+Accept: "application/json"
+
+
+###
+
+POST {{host}}
+Content-Type: application/json
+
+{
+  "username" : "jane",
+  "email": "jane2@doe.fr",
+  "password" : "1234"  
+}
+
+
+###
+DELETE {{host}}/1
+
+
+### 
+PUT {{host}}/3
+Content-Type: application/json
+
+{
+  "username" : "jane",
+  "email": "toto@doe.fr",
+  "password" : "1234"  
+}
+
